@@ -1,0 +1,27 @@
+.navbar
+    display: flex
+    padding-top: 45px
+    padding-bottom: 50px
+    justify-content: space-between
+    align-items: center
+    &-logo
+        width: 210px
+        height: 68px
+    &-link
+        font-size: 24px
+        color: $tertiary-color
+        font-weight: 500
+        &:not(:last-child)
+            padding-right: 57px
+        &:hover
+            color: $primary-color
+
+@media screen and (max-width: 768px)
+    .navbar
+        &-logo
+            width: 145px
+            height: 45px
+        &-link
+            font-size: 12px
+            &:not(:last-child)
+                padding-right: 26px
