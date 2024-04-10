@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react';
 import DataTable from 'react-data-table-component';
 import { employeesTest } from '../../data/employees';
